@@ -1,31 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="ezamedia.css"> <!-- Link to your CSS file -->
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-        }
-    </style>
-</head>
-<body>
-
-<div id="main-content">
-    <h1>Your Text Here</h1>
-    <button onclick="buttonClick(1)">Button 1</button>
-    <button onclick="buttonClick(2)">Button 2</button>
-    <button onclick="buttonClick(3)">Button 3</button>
+<div id="menu">
+  <div id="menu-items">
+ 	<link rel="stylesheet" href="ezamedia.css">
+    <!-- I made these divs instead of links so you can click on mobile to view the effect -->
+    <div class="menu-item">Time table</div>
+    <div class="menu-item">Substitution</div>
+    <div class="menu-item">About</div>
+    <div class="menu-item">Contact Us</div>
+  </div>
+  <div id="menu-background-pattern"></div>
+  <div id="menu-background-image"></div>
 </div>
 
-<script>
-    function buttonClick(buttonNumber) {
-        alert("Button " + buttonNumber + " clicked!");
-        // You can add more functionality or redirect to another page based on the button clicked
-    }
-</script>
-
-</body>
-</html>
